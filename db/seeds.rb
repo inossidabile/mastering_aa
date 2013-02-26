@@ -1,0 +1,1 @@
+Foo.create! :title => 'The test foo ಠ_ಠ'
