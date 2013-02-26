@@ -1,3 +1,5 @@
 class Foo < ActiveRecord::Base
-  # attr_accessible :title, :body
+  has_many :foobars
+
+  accepts_nested_attributes_for :foobars
 end

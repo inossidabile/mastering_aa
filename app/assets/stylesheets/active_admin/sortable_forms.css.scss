@@ -1,0 +1,11 @@
+body.active_admin {
+  div.has_many.sortable {
+    h3:before {
+      content: "\21C5 ";
+    }
+
+    fieldset, label {
+      cursor: move;
+    }
+  }
+}
